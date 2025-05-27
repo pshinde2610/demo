@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root{
+    --black:black;
+    --purple:purple;
+    --light-color: #666;
+    --box-shadow: 2px 2px 12px grey;
+}
+*{
+    font-family: 'andika';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+    
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+
+}
+body{
+    background: #fff;
+    
+}
+.header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    border:1px solid;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: var(--box-shadow)
+}
+.header .logo img{
+    margin-top: 10px; 
+   
+    display: inline-block;
+}
+
+/*.header .logo img:hover{
+width: 85px;
+
+}*/
+    .header .headbar a{
+        font-size: 1.7rem;
+        border-radius: .5rem;
+        padding:.5rem 1.5rem;
+        color: var(--light-color);
+
+    }
+    .header .headbar a:hover
+    {
+        color: #fff;
+        background: linear-gradient(120deg,#f14805 40%,#f3f642);
+
+    }
+    .header.menubtn{
+        margin-right: 60px;
+    }
+    .header .menubtn button{
+        padding: 10px 45px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        background-image: linear-gradient(to right,#fab2ff 40%,#663399);
+        border-radius: 10px;
+
+    }
+    .main{
+       
+      
+        width:100%
+        
+       }
+        .homei img{
+          
+      width: 100%;
+       margin-top: 1%;
+      
+       }
+       /*<section class="main">
+      <div class="left">
+        <h2>We Are Here For Your Care.</h2>
+        <h1>we are the best pharmacy</h1>
+        <p>we are here for your care 24/7. any time.</p>
+       
+      </div>*/
+      .home-data{
+        position: relative;
+        top: -450px;
+        left: 900px;
+       
+      }
+      .home-data p{
+        font-size: 30px;
+        color: aliceblue;
+        text-shadow:#666;
+      }
+      .home-data p:hover{
+        font-size: 35px;
+        color: #f14805;
+      }
+     
